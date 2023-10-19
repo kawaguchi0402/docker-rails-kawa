@@ -1,0 +1,12 @@
+<h1><%= @top.id %> の編集ページ</h1>
+
+<%= form_with(model: @top, local: true) do |f| %>
+	<p><%= f.label :name, '題名' %></p>
+  <p><%= f.text_field :name %></p>
+  <p><%= f.label :content, '内容' %></p>
+  <p><%= f.text_field :content %></p>
+
+  <%= f.submit '投稿' %>
+<% end %>
+
+<%= link_to '一覧に戻る', tops_path %>

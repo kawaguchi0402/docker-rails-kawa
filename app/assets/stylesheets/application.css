@@ -1,5 +1,18 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+h1 {
+ text-align: center;   
+}
+
+ul {
+    font-size: 20px;
+    height: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+p {
+    display :block;
+}
+ /* This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's

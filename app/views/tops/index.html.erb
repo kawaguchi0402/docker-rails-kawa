@@ -1,0 +1,9 @@
+<h1>トップページ</h1>
+
+<ul>
+  <% @tops.each do |top| %>
+    <li><%=link_to top.id, top_path(top) %>の詳細</li>
+  <% end %>
+</ul>
+
+<%= link_to '新規投稿', new_top_path %>

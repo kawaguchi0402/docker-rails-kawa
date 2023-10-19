@@ -1,0 +1,8 @@
+<h1><%= @top.name %>の詳細</h1>
+
+<p><%= @top.content %></p>
+<p><%= @top.name %></p>
+
+<%=link_to 'トップへ戻る', tops_path%>
+<%=link_to '内容の編集', edit_top_path(@top)%>
+<%=button_to "削除", @top, method: :delete %>
