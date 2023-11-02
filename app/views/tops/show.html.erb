@@ -5,4 +5,4 @@
 
 <%=link_to 'トップへ戻る', tops_path%>
 <%=link_to '内容の編集', edit_top_path(@top)%>
-<%=button_to "削除", @top, method: :delete %>
+<%=button_to "削除", @top, method: :delete, data: { confirm: '本当に削除してよろしいですか？' } %>

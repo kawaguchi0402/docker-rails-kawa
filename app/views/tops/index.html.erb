@@ -2,7 +2,7 @@
 
 <ul>
   <% @tops.each do |top| %>
-    <li><%=link_to top.id, top_path(top) %>の詳細</li>
+    <li><%=link_to top.name, top_path(top) %>の詳細</li>
   <% end %>
 </ul>
 
